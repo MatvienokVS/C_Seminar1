@@ -17,4 +17,11 @@ if (max < b)
 		max = c;
 	}
 }
+else
+{
+	if (max < c)
+	{
+		max = c;
+	}
+}
 WriteLine($"Максимальное число {max}");
