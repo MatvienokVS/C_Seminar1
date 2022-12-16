@@ -12,6 +12,10 @@ while (result <= n)
 	if (result % 2 == 0)
 	{
 		Write($"{result} ");
+		result += 2;
+	}
+	else
+	{
 		result += 1;
 	}
 }
